@@ -79,12 +79,8 @@ With this message flashed to the session, you may now display it in your view(s)
 ```html
 @if(Session::has('flashy_notification.message'))
 <script id="flashy-template" type="text/template">
-    @if(!is_null(Session::get('flashy_notification.type')))
     <div class="flashy flashy--{{ Session::get('flashy_notification.type') }}">
-    @else
-    <div class="flashy">
-    @endif
-        ✉
+        <i class="material-icons">speaker_notes</i>
         <a href="#" class="flashy__body" target="_blank"></a>
     </div>
 </script>

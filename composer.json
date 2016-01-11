@@ -1,0 +1,27 @@
+{
+    "name": "mercuryseries/flashy",
+    "description": "Easy flash notifications",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Honore Hounwanou",
+            "email": "mercuryseries@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~5.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "MercurySeries\\Flashy": "src/"
+        },
+        "files": [
+            "src/MercurySeries/Flashy/functions.php"
+        ]
+    },
+    "minimum-stability": "stable"
+}

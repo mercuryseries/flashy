@@ -4,7 +4,11 @@
 
 ## Installation
 
+### Video Tutorial
+
 [Watch a Video Tutorial here](https://www.youtube.com/watch?v=GXMLd7F9o94)
+
+### You like text ?
 
 First, pull in the package through Composer.
 

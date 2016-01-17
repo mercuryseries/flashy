@@ -4,6 +4,8 @@
 
 ## Installation
 
+[Watch a Video Tutorial here](https://www.youtube.com/watch?v=GXMLd7F9o94)
+
 First, pull in the package through Composer.
 
 Run `composer require mercuryseries/flashy`

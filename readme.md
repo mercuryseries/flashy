@@ -159,6 +159,7 @@ For a nice rendering you may include these lines in your head:
 and override the following sections of the default flashy view:
 
 ```html
+<style type="text/css">
 .flashy {
     font-family: "Source Sans Pro", Arial, sans-serif;
     padding: 11px 30px;
@@ -170,6 +171,7 @@ and override the following sections of the default flashy view:
     font-size: 16px;
     color: #fff;
 }
+</style>
 
 <script id="flashy-template" type="text/template">
     <div class="flashy flashy--{{ Session::get('flashy_notification.type') }}">

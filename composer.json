@@ -23,5 +23,15 @@
             "src/MercurySeries/Flashy/functions.php"
         ]
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "extra" : {
+        "laravel" : {
+            "providers" : [
+                "MercurySeries\\Flashy\\FlashyServiceProvider"
+            ],
+            "aliases": {
+                "Flashy": "MercurySeries\\Flashy\\Flashy"
+            }
+        }
+    }
 }

@@ -1,6 +1,6 @@
 # Easy Flash Messages
 
-![http://img15.hostingpics.net/pics/176207Screenshotfrom20160111164935.png](http://img15.hostingpics.net/pics/176207Screenshotfrom20160111164935.png)
+![Example of Error Notification](https://i.imgur.com/6UnNsnp.png)
 
 # Copyright
 Inspired by [Jeffrey Way's Flash Package](https://github.com/laracasts/flash). Added following Jeffrey Ωmega's request.

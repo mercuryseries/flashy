@@ -21,7 +21,7 @@ And then, if using Laravel 5, include the service provider within `config/app.ph
 
 ```php
 'providers' => [
-    MercurySeries\Flashy\FlashyServiceProvider::class
+    MercurySeries\Flashy\FlashyServiceProvider::class,
 ];
 ```
 
